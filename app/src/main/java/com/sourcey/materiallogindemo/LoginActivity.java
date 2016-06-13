@@ -122,6 +122,7 @@ public class LoginActivity extends AppCompatActivity {
             valid = false;
         } else {
             _emailText.setError(null);
+            //handle
         }
 
         if (password.isEmpty() || password.length() < 4 || password.length() > 10) {
